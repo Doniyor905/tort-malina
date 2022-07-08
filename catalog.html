@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./font/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Malina Tort</title>
+</head>
+
+<body>
+    <header class="header container">
+        <a href="./index.html" class="logo"><img src="./image/logo.png" alt=""></a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a href="./index.html" class="nav__link">Главная</a></li>
+                <li><a href="#!" class="nav__link">Каталог тортов</a></li>
+                <li><a href="./fillings.html" class="nav__link">Начинки</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav__burger">
+            <span></span>
+        </div>
+
+    </header>
+    <div class="intro">
+        <img src="./image/Union.png" alt="" class="element">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__item">
+                    <h1>Каталог товаров</h1>
+                    <div class="intro__subtitle">в Ташкенте</div>
+                    <div class="intro__text">Наслаждайтесь вкусными десертами
+                        без вредв для фигуры и здоровья!</div>
+                    <a href="#!" class="intro__link">Оставьте заявку</a>
+                </div>
+                <div class="intro__img"><img src="./image/header-img.png" class="" alt=""></div>
+                
+            </div>
+        </div>
+    </div>
+    <section class="catalog catalog-page">
+        <div class="container">
+            <h2 class="title">Каталог товаров</h2>
+            <div class="catalog__inner">
+                <a href="./kids.html">
+                    <div class="catalog__item">
+                        <img src="./image/cake-kids.png" alt="">
+                        <div class="name__item">Детские торты</div>
+                        <div class="work__item-black"></div>
+                    </div>
+                </a>
+
+                <a href="./wedding.html">
+                    <div class="catalog__item">
+                        <img src="./image/cake-wedding.png" alt="">
+                        <div class="name__item">Свадебный торт</div>
+                        <div class="work__item-black"></div>
+                    </div>
+                </a>
+
+                <a href="./girls.html">
+                    <div class="catalog__item">
+                        <img src="./image/cake-girls.png" alt="">
+                        <div class="name__item">Торт для женщин</div>
+                        <div class="work__item-black"></div>
+                    </div>
+                </a>
+                <a href="./lovers.html">
+                    <div class="catalog__item">
+                        <img src="./image/cake-lovers.png" alt="">
+                        <div class="name__item">Торты любимым</div>
+                        <div class="work__item-black"></div>
+                    </div>
+                </a>
+
+                <a href="./boys.html">
+                    <div class="catalog__item">
+                        <img src="./image/cake-boys.png" alt="">
+                        <div class="name__item">Мужской торт</div>
+                        <div class="work__item-black"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <img class="footer__element" src="./image/union-footer.png" alt="">
+            <div class="footer__inner">
+                <div class="footer__copyright">© 2022 Malina cake все права зашищены</div>
+            </div>
+    </footer>
+    <div class="popup">
+        <div class="modal">
+            <div class="popup__close"><span></span><span></span></div>
+            <div class="popup__item">
+                <div class="popup__form-title">Связаться с нами</div>
+                <form class="popup__form" action="./bot.php" method="post">
+                    <label>
+                        <input class="popup__name" type="text" placeholder="Ваше имя" name="name" autocomplete="off" required>
+                    </label>
+                    <label>
+                        <input class="popup__phone" type="text" placeholder="Телефон" name="phone" autocomplete="off" required>
+                    </label>
+                    <textarea class="popup__descr" id="" cols="30" rows="10" name="descr" placeholder="Сообщения"></textarea>
+                    <button>Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

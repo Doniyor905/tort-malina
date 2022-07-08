@@ -1,0 +1,54 @@
+:root {
+    --mont700: "Montserrat-bold";
+    --mont600: "Montserrat-Semibold";
+    --mont400: "Montserrat";
+    --mont500: "Montserrat-medium";
+    --pink: #FF7A7A;
+}
+.kids {
+    margin-top: 136px;
+    margin-bottom: 50px;
+}
+
+.kids__title {
+    font-size: 50px;
+    font-family: var(--mont600);
+    text-align: center;
+    color: var(--pink);
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+.kids__item {
+    width: 363px;
+    height: 439px;
+    background-color: var(--pink);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 18px;
+    border-radius: 39px;
+    margin-bottom: 10px;
+}
+
+.kids__whole {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 9px;
+}
+
+.kids__link {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.kids__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.kids__img {
+    width: 100%;
+}
